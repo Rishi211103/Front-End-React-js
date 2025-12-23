@@ -1,0 +1,32 @@
+.btn-button{
+    
+    color:white;
+    background-color: blue;
+    margin-left: 20px;
+    
+}
+.edit-btn{
+    color: beige;
+    background-color: grey;
+    
+    
+    
+
+}
+.delete-btn{
+    color:white;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 20;
+}
+
+
+.input-btn{
+    margin-top: auto;
+    
+
+}
+.head-btn{
+    background-color:white;
+    color: white;
+}

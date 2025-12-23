@@ -1,0 +1,117 @@
+/* Navbar container */
+.navbar {
+  width: 1600px;
+  background: white;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  font-family: Arial, sans-serif;
+  margin-bottom: 500px;
+}
+
+/* Left logo container */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-left img {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.navbar-left span {
+  font-size:30px;
+  font-weight: 600;
+  color:rgb(195, 50, 232);
+}
+
+/* Center links */
+.navbar-links {
+  margin-right: 800px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #666;
+  font-size: 15px;
+}
+
+.navbar-links li {
+  list-style: none;
+  cursor: pointer;
+  transition: 0.2s;
+  color: black;
+}
+
+.navbar-links li:hover {
+  color: black;
+}
+
+/* Right-side controls */
+.navbar-right {
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  
+}
+
+.navbar-right button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: #5534db;
+  cursor: pointer;
+}
+
+.navbar-right button:hover {
+  color: black;
+}
+
+/* Register Button */
+.register {
+  background-color: #635BFF; /* Purple button color */
+  color: white;
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+
+.register:hover {
+  background-color: #4a3fe3; /* Slightly darker purple on hover */
+}
+
+.profile{
+
+    height: 80px;
+    width: 50px;
+}
+.message{
+    color: black;
+    font-size: 30px;
+    
+}
+.bell{
+    color: black;
+    font-size: 30px;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    padding: "10px 14px";
+
+    border: "1px solid #ddd";
+    outline: none;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    margin-right : 20px;
+
+}

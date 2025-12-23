@@ -1,0 +1,45 @@
+.slider-container {
+  position: relative;
+  width: 1500px;
+  height: 800px;
+  margin: 0 auto;      /* no top space */
+  border-radius: 15px;
+}
+
+
+.slider-image {
+  width: 1500px;
+  height: 800px;
+  object-fit: cover;
+  transition: opacity 0.6s ease-in-out;
+  animation: slide 3s infinite linear;
+}
+
+/* Pause on hover */
+.slider-container:hover .slider-image {
+  animation-play-state: paused;
+}
+
+/* Buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+

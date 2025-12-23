@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e3e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* NAVBAR BASE */
+
+.navbar {
+  background: #121212;
+  color: #fff;
+  padding: 18px 60px;
+  display: flex;
+  align-items: center;
+  min-width: 900px;
+}
+
+/* LOGO */
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+/* LINKS */
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 0.95rem;
+}
+
+/* positions */
+
+.nav-links.center {
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links.left {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.nav-links.right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* CONTACT BUTTON */
+
+.contact-btn {
+  border: none;
+  outline: none;
+  padding: 10px 32px;
+  border-radius: 999px;
+  background: #11a9d8;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.contact-btn.small {
+  padding: 6px 22px;
+}
+
+/* Hover (optional) */
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  opacity: 0.7;
+}
+
+.contact-btn:hover {
+  opacity: 0.85;
+}

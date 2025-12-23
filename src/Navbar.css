@@ -1,0 +1,49 @@
+/* Main navbar container */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;        /* Adjust spacing around navbar */
+  background-color: #111;    /* Dark background like your screenshot */
+  color: white;
+  width: 1420px;
+  margin-bottom: 40px;
+  
+}
+
+/* Logo text */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: auto;
+}
+
+/* Center navigation links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;                /* ⭐ Adds space between Services – Projects – About */
+  
+}
+
+/* Links styling */
+.nav-links a {
+  text-decoration: none;
+  color: #4C8BF5;           /* Blue like screenshot */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Contact button */
+.nav-contact {
+  background-color: rgb(15, 14, 14);
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
