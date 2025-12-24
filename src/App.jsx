@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Cric from "./Cric";
-import LifeCycle from "./Lifecycle";
 import ApicallHook from "./ApicallHook";
 import Formstate from "./Formstate";
 import Details from "./Details";
