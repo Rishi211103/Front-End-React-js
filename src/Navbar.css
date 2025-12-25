@@ -17,6 +17,7 @@
   font-weight: bold;
   letter-spacing: 1px;
   margin-right: auto;
+;
 }
 
 /* Center navigation links */
@@ -25,14 +26,16 @@
   justify-content: center;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;                /* ⭐ Adds space between Services – Projects – About */
+  gap: 40px;   
+  color: blue;  
+             /* ⭐ Adds space between Services – Projects – About */
   
 }
 
 /* Links styling */
 .nav-links a {
   text-decoration: none;
-  color: #4C8BF5;           /* Blue like screenshot */
+  color: #041b41;           /* Blue like screenshot */
   font-size: 18px;
   font-weight: 500;
 }
@@ -46,4 +49,9 @@
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
+}
+.home{
+  color: rgb(223, 99, 16);
+  border-radius: 20px;
+  background-color: black;
 }

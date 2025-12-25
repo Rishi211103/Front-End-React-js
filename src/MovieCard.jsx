@@ -15,19 +15,36 @@ const MovieCard = () => {
   }, []);
 
   return (
-    <div className="movies-grid">
-      {movieapi.slice(0,5).map((movie) => (
-        <div className="movie-info" key={movie.id}>
-          <h1>{movie.title}</h1>
-          <p className="movie-meta">{movie.type}</p>
-          <p className="movie-meta">{movie.runtime}</p>
-          <div className="movie-bottom">
-            <span className="movie-year">{movie.year}</span>
-            <span className="movie-rating">{movie.rating}</span>
-          </div>
+   <div className="movies-grid">
+  {movieapi.map((movie) => (
+    <div className="movie-card" key={movie.id}>
+      <img
+        src={movie.poster}
+        alt={movie.title}
+        className="movie-poster"
+      />
+
+      <div className="movie-info">
+        <h2 className="movie-title">{movie.title}</h2>
+        
+        <p className="dir">Directed by- {movie.director}</p>
+
+        <p className="movie-meta">{movie.genre}</p>
+        <p className="movie-meta">{movie.runtime}</p>
+        <h3>Summary</h3>
+        <p className="movie-description">{movie.plot}</p>
+
+        <div className="movie-bottom">
+          <span className="movie-year">Year:{movie.year}</span>
+          <span className="movie-rating">{movie.rating}</span>
+          
+          <h3 className="star"> ★★★★★</h3>
         </div>
-      ))}
+      </div>
     </div>
+  ))}
+</div>
+
   );
 };
 
